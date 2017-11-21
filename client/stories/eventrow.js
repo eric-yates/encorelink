@@ -12,8 +12,8 @@ storiesOf('EventRow', module)
       <EventRow
         hideCalendar={boolean('hide calendar', false)}
         event={{
-          date: date('data.date', new Date('Jan 1, 2018 7:00 am MST')),
-          endDate: date('data.endDate', new Date('Jan 1, 1901 7:00 am MST')),
+          date: date('data.date', new Date('Jan 1, 2018 12:00 am GMT')),
+          endDate: date('data.endDate', new Date('Jan 1, 1901 12:00 am GMT')),
           id: 5,
           location: text('data.location', 'denver'),
           name: text('data.name', 'music') }}
