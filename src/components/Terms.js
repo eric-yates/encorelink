@@ -103,7 +103,7 @@ function Terms() {
         </p>
         <ol start={10}><li><strong>Assignment</strong></li></ol>
         <p>
-          The EncoreLink is allowed to assign, transfer, and subcontract its rights and/or
+          EncoreLink is allowed to assign, transfer, and subcontract its rights and/or
           obligations under these Terms without any notification. However, you are not allowed to
           assign, transfer, or subcontract any of your rights and/or obligations under these Terms.
         </p>
