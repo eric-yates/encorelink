@@ -8,7 +8,7 @@ import configureStore from './store/configureStore';
 import { allowApiToAccessState } from './utils/apiHelpers';
 import { allowPersistenceToBePurgedOnLogout } from './store/purgeStoreOnLogout';
 import { checkIfLoginIsValid } from './actions/userActions';
-import './scss/app.scss';
+import './scss/app.css';
 
 const store = configureStore();
 allowApiToAccessState(store);
