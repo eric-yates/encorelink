@@ -18,7 +18,7 @@ async function callApi(url, { method, body }) {
   if (body) {
     fetchOptions.body = JSON.stringify(body);
   }
-  const res = await fetch(`/api/${url}`, fetchOptions);
+  const res = await fetch(`${process.env.REACT_APP_API_ENDPOINT}/api/${url}`, fetchOptions);
 
   let json = {};
 

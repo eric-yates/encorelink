@@ -20,6 +20,8 @@ Developer documentation currently lives [here](DEVDOCS.md)
 3. Navigate to your repo folder
 4. Run `npm install`
 5. Run `npm start`
+6. Copy the contents of `.env.sample` into a new file called `.env`
+7. In a new tab, `cd` into `server` directory and run `npm start` to start the api server
 
 ## Linting
 

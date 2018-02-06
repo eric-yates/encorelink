@@ -26,7 +26,7 @@ function Header({ isLoggedIn, isMusician, logoutUser, user }) {
     <header className="top-bar">
       <div className="top-bar-left">
         <Link to={isLoggedIn ? '/dashboard' : '/'}>
-          <img alt="EncoreLink" className="logo-img" src="/public/img/encorelink-logo.png" />
+          <img alt="EncoreLink" className="logo-img" src={`${process.env.PUBLIC_URL}/img/encorelink-logo.png`} />
         </Link>
       </div>
       <div className="top-bar-right text-right">

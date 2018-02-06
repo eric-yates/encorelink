@@ -22,3 +22,4 @@ server/datasources.local.json
 client/dist
 .vscode
 yarn.lock
+.env
