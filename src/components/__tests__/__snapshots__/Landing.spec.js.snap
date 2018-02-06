@@ -102,7 +102,6 @@ exports[`Landing renders correctly 1`] = `
                     terms
                   </a>
                   .
-                  <noscript />
                 </label>
                 <button
                   className="button secondary"
@@ -161,7 +160,6 @@ exports[`Landing renders correctly 1`] = `
                     terms
                   </a>
                   .
-                  <noscript />
                 </label>
                 <button
                   className="button secondary"
@@ -206,7 +204,7 @@ exports[`Landing renders correctly 1`] = `
       </h1>
       <img
         alt="Organizers Create Volunteering Spots"
-        src="../../public/img/how/how_organizer.png"
+        src="/img/how/how_organizer.png"
       />
     </div>
     <div
@@ -217,7 +215,7 @@ exports[`Landing renders correctly 1`] = `
       </h1>
       <img
         alt="Musicians Search and Schedule Volunteering Spots"
-        src="../../public/img/how/how_musician.png"
+        src="/img/how/how_musician.png"
       />
     </div>
     <div
@@ -228,7 +226,7 @@ exports[`Landing renders correctly 1`] = `
       </h1>
       <img
         alt="Musicians Play for Audience"
-        src="../../public/img/how/how_performance.png"
+        src="/img/how/how_performance.png"
       />
     </div>
   </div>
